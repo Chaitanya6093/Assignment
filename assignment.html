@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive BOGO Boxes</title>
+    <link rel="stylesheet" href="assignment.css">
+</head>
+<body>
+    <div class="container">
+        <h1>YAY! It's BOGO</h1>
+        
+        <div class="box" id="box1" data-base-price="24">
+            <div class="box-header">
+                <div class="unit">1 Unit</div>
+                <div class="discount">10% Off</div>
+                <div class="price">$<span class="current-price">21.60</span> USD <span class="original-price">$24.00 USD</span></div>
+            </div>
+            <div class="box-content">
+                <div class="size-options">
+                    <h3>Size</h3>
+                    <div class="options">
+                        <button class="option active" data-size="1">#1</button>
+                        <button class="option" data-size="2">#2</button>
+                    </div>
+                </div>
+                <div class="color-options">
+                    <h3>Color</h3>
+                    <div class="options">
+                        <button class="option color-option black active" data-color="black"></button>
+                        <button class="option color-option white" data-color="white"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="box" id="box2" data-base-price="24">
+            <div class="box-header">
+                <div class="unit">2 Unit</div>
+                <div class="discount">20% Off</div>
+                <div class="price">$<span class="current-price">19.20</span> USD <span class="original-price">$24.00 USD</span></div>
+            </div>
+            <div class="box-content">
+                <div class="size-options">
+                    <h3>Size</h3>
+                    <div class="options">
+                        <button class="option active" data-size="1">#1</button>
+                        <button class="option" data-size="2">#2</button>
+                    </div>
+                </div>
+                <div class="color-options">
+                    <h3>Color</h3>
+                    <div class="options">
+                        <button class="option color-option black active" data-color="black"></button>
+                        <button class="option color-option white" data-color="white"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="box" id="box3" data-base-price="24">
+            <div class="box-header">
+                <div class="unit">3 Unit</div>
+                <div class="discount">30% Off</div>
+                <div class="price">$<span class="current-price">16.80</span> USD <span class="original-price">$24.00 USD</span></div>
+            </div>
+            <div class="box-content">
+                <div class="size-options">
+                    <h3>Size</h3>
+                    <div class="options">
+                        <button class="option active" data-size="1">#1</button>
+                        <button class="option" data-size="2">#2</button>
+                    </div>
+                </div>
+                <div class="color-options">
+                    <h3>Color</h3>
+                    <div class="options">
+                        <button class="option color-option black active" data-color="black"></button>
+                        <button class="option color-option white" data-color="white"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="delivery">Free Delivery</div>
+            <div class="total">Total: $<span id="total-price">18.00</span> USD</div>
+            <button class="add-to-cart">+ Add to Cart</button>
+            <div class="powered-by">@ Powered by Pumper</div>
+        </div>
+    </div>
+
+    <script src="assignment.js"></script>
+</body>
+</html>
